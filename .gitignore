@@ -1,0 +1,10 @@
+# Folders and files to ignore
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ropeproject/
+neural_network/data/
+neural_network/model/
+reinforcement_learning/model/
