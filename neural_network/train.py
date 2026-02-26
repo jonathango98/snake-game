@@ -33,8 +33,8 @@ def load_and_balance(file_pattern, seed=42):
 
 def main():
     parser = argparse.ArgumentParser(description="Train Snake AI models.")
-    parser.add_argument("model", choices=["knn", "svm", "tf", "pytorch"], 
-                        default="rf", help="Choose model: rf, knn, svm, nb, tf, pytorch")
+    parser.add_argument("model", choices=["knn", "svm", "tf", "pytorch"],
+                        help="Choose model: knn, svm, tf, pytorch")
     args = parser.parse_args()
 
     X_train_df, X_test_df, y_train_df, y_test_df = load_and_balance("data/snake_data_*.csv")

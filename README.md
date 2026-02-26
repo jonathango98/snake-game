@@ -37,6 +37,14 @@ To train the neural network, you first need to generate training data by playing
     ```
     This will run the game with the trained neural network playing.
 
+#### Arguments
+
+*   `train.py`:
+    *   `model`: The type of model to train.
+        *   Choices: `knn`, `svm`, `tf`, `pytorch`
+*   `run.py`:
+    *   `file`: Path to the trained model file (.pth, .h5, or .pkl).
+
 ### Reinforcement Learning
 
 To train the reinforcement learning agent:
