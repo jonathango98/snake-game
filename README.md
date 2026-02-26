@@ -59,6 +59,6 @@ This will train the DQN agent and save the model. You can see the agent learning
 
 Here is a video of the AI in action:
 
-<video src="snake-video.mov" width="400" controls>
+<video src="snake-video.mp4" width="400" controls>
   Your browser does not support the video tag.
 </video>
